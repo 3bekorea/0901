@@ -24,12 +24,55 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css)" rel="stylesheet" type="text/css">
+    <link href="http://www.openhiun.com/hangul/nanumbarungothic.css" rel="stylesheet" type="text/css">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<style type="text/css">
+	@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	
+		#font-naum
+		{
+			
+			font-family:'Nanum Gothic'
+		}
+		
+		#side_image
+		{
+			width: 90%
+		}
+		#h4_style
+		{
+			font-size: 1.5em;
+			color:#F79646;
+			font-family: 'Nanum Gothic', sans-serif;
+		}
+
+
+		#p1 
+		{
+			font-family: 'Nanum Gothic', sans-serif;
+			color:#245287;
+			font-weight:600;
+			font-size:1.3em;
+			
+				
+		}
+		#p2
+		{
+			font-family: 'Nanum Gothic', sans-serif;
+		 	font-size: 1em;
+		 	font-weight:700;
+		}
+		
+
+	</style>
+
 
 </head>
 
@@ -46,7 +89,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">수학 GPS</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,8 +124,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
+                <div class="intro-lead-in">Welcome To Math GPS!</div>
+                <div class="intro-heading">무료, 누구에게나, 영원히</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
@@ -101,25 +144,26 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                        
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
+                    <h4 class="service-heading" id="font-naum">이해</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
+                    <h4 class="service-heading" id="font-naum" >학습</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-bar-chart-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
+                    <h4 class="service-heading" id="font-naum" >분석</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
@@ -229,74 +273,102 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">수학 GPS란<span>?</span></h2>
+                    <h3 class="section-subheading text-muted" style="font-style:normal">수학의 방향성을 잡아주고, 수학을 흥미롭게 만드는 학습 길라잡이<br></h3>
+                    <!-- <h3 class="section-subheading text-muted" style="font-family:'돋음',Arial; ">수학의 방향성을 잡아주고, 수학을 흥미롭게 만드는 학습 길라잡이</h3>
+                    -->
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-13">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
                             </div>
+                            <div class="timeline-panel" style="float: right;">
+                            	<img class="img-responsive" src="img/about/1_1.png" alt="" id="side_image"><br>
+                            </div>   
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
+                                    <h4 class="subheading"><span id="h4_style">레벨</span>을 올리세요</h4>
+                                </div>                                                        
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+								<p id="p1" class="text-muted">수학이 어렵게만 느껴지고, 다음문제에 막혀서 하기 싫을 때, 내 수학실력을 높이고 싶다면, 학습 스테이지에서 
+단계적으로 학습레벨을 올려주세요.</p>
+                                <p id="p2" class="text-muted"><br>내 수준에 맞는 학습 스테이지에서 이론과 힌트, 그리고 문제마다 제공되는 풀이영상이 당신의 레벨을 올려줍니다.
+                	        	</p>
                                 </div>
                             </div>
+                            
                         </li>
-                        <li class="timeline-inverted">
+                         <li class="timeline-inverted">   
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">                                
                             </div>
+                            
+                            <div class="timeline-panel" style="float: left; padding: 0px, 0px, 0px, 0px;">
+                            	<img class="img-responsive" src="img/about/2_1.png" alt="" id="side_image" ><br>
+                            </div>       
+                                                 
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4><span id="h4_style">로드맵</span> 별을 채워요</h4>
+                                    <!--<h4 class="subheading">An Agency is Born</h4>
+                                    -->
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                	<p id="p1" class="text-muted">뭘 모르는지 모르고 누구에게 물어봐야 될 지 모를때, 내가 채운별이 나의 잃어버린 길을 찾아줍니다.</p>
+                                    <p id="p2" class="text-muted"><br>학습진행을 실시간 분석 알고리즘으로 분석하고,길을 찾을 수 있도록 단계적 별, 학습로드맵, 학습정보, 학습통계가 제공됩니다.
+                                 <div class="timeline-body">
                                 </div>
                             </div>
+
                         </li>
                         <li>
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
                             </div>
+                            
+                            <div class="timeline-panel" style="float: right; padding: 0px, 0px, 0px, 0px;">
+                            	<img class="img-responsive" src="img/about/3_1.png" alt="" id="side_image">
+                            </div>   
+                            
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4><span id="h4_style">카드</span>와 <span id="h4_style">포인트</span> 를 획득하니, 성취감이 생겼어요</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted" id="p1">목적없는 반복학습으로 공부에 흥미가 사라지고, 수학이 싫어지게 되었나요? 학습도달에 따른 나만의 성취카드와 학습포인트를 모아 자신감을 키워보세요. </p>
+									<p class="text-muted" id="p2"><br> 200여 개 학습과정에 알맞은 성취카드와 다양한 학습포인트를 통해 수학에 흥미와 자신감을 향상시킵니다.	</p>
                                 </div>
                             </div>
                         </li>
+                        
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
                             </div>
+                            
+                            <div class="timeline-panel" style="float: left; padding: 0px, 0px, 0px, 0px;">
+                            	<img class="img-responsive" src="img/about/4_1.png" alt="" id="side_image">
+                            </div>   
+                            
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4><span id="h4_style">재미난 경쟁</span>을 하세요</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted" id="p1">아직도 혼자 공부하세요? 레벨도 올리고 담벼락에 별도 채우고, 카드와 포인트를 획득했다면, 이젠 친구들과 재미나게 경쟁하세요.</p>
+									<p class="text-muted" id="p2"><br> SNS, 친구맺기 기능을 통해 친구와 경쟁도 하고 선생님과 학부모는 학생의 학습상태를 확인할 수 있습니다. </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                    <br>Of 
+                                    <br>Math GPS</h4>
                             </div>
                         </li>
                     </ul>
@@ -311,15 +383,15 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Just do it, Impossible is Nothing</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <h4>JI YONG KIM</h4>
+                        <p class="text-muted">Lead Developer / CEO</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -333,7 +405,7 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
+                        <h4>MYUNG HUNE JUNG</h4>
                         <p class="text-muted">Lead Marketer</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
@@ -348,8 +420,8 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <h4>TEA BEOM MIN</h4>
+                        <p class="text-muted">Lead Designer</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
