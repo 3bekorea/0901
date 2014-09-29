@@ -20,6 +20,7 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    font-family:'Nanum Gothic'
 }
 
 p.large {
@@ -51,8 +52,8 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;  
+    font-family:'Nanum Gothic', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 @media (min-width:480px)
@@ -465,7 +466,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Nanum Gothic' ,"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -473,7 +474,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 200px 0;
     }
 
 }
@@ -482,6 +483,15 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+@media(min-width:768px){
+
+	#portfolio
+	{
+		padding: 100px 0;
+	} 	
+}
+
 
 #portfolio .portfolio-item {
     right: 0;
