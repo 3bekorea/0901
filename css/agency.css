@@ -9,6 +9,98 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+@media (max-width:370px)
+{
+	.carousel-indicators li
+	{
+		width:5px;
+		height:5px;
+	}	
+}
+
+@media (max-width:370px)
+{
+	.carousel-indicators .active
+	{
+		width:7px;
+		height:7px;
+	}
+}
+
+
+.carousel-indicators .active
+{
+	background-color: #fed136;
+	border:0px;
+}
+
+
+@media (max-width:767px)
+{
+	.carousel
+	{
+		margin-top: 50px;
+	}
+}
+
+@media (max-width:768px)
+{
+	.carousel-caption
+	{
+		padding-bottom:0px;
+	}
+}
+@media (max-width:370px)
+{
+	.carousel-caption
+	{
+		bottom:10px;
+	}
+}
+
+@media (min-width:100px)
+{
+	.carousel-indicators
+	{
+		padding-bottom: 0px;	
+	}
+}
+
+
+@media (min-width:490px) 
+{
+	.carousel-indicators
+	{
+		bottom:5px;
+	}
+}
+
+@media (min-width:768px) 
+{
+	.carousel-indicators
+	{
+		bottom:30px;
+	}
+}
+
+@media(max-width:768px)
+{
+	.carousel-indicators
+	{
+		margin-bottom:0px;
+		bottom:0px;
+	}
+}
+
+@media(max-width:760px)
+{
+	h5
+	{
+	 	margin-bottom: 0px;	
+	}
+}
+
+
 .text-muted {
     color: #777;
 }
@@ -56,6 +148,16 @@ h6 {
     font-family:'Nanum Gothic', Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+@media (max-width:776px)
+{
+	h5
+	{
+		font-size:0px;
+	}
+	
+}
+	
+
 @media (min-width:480px)
 {
 	h1
@@ -70,11 +172,8 @@ h6 {
 	{
 		font-size:0px;
 	}
-	h5
-	{
-		font-size:0px;
-	}
 }
+
 
 @media (min-width:778px)
 {
@@ -219,6 +318,17 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background-color: #fed136;
 }
+
+@media (max-width:370px)
+{
+	.btn-xl
+	{
+		padding: 2px 5px;
+		font-size: 8px;
+	}
+}
+
+
 @media(min-width:768px)
 {
 	.btn-xl
