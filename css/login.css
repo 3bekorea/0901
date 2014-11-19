@@ -1,0 +1,186 @@
+/*!
+ * copyright by 3BE&mathgps
+ * 
+ * 
+ */
+
+body {
+	width:1900px;
+	height:1003px;
+	background-image: url("../img/login/background.jpg");
+	background-color: black;
+	text-align:center;
+	margin:0;
+}
+
+
+.login_panel
+{
+	top:0px;
+	height: 100%;
+	background-color: white;
+	margin:0 0 0 0px;
+	border-top:0px;
+	border-bottom:0px;
+	border-right: 1px;
+	border-left: 1px;
+	border-color: #A6A4A4;
+	border-style: solid;
+	
+}
+
+@media (min-width:100px)
+{
+	.login_panel
+	{
+		width: 320px;
+	}
+}
+
+@media (min-width:400px)
+{
+	.login_panel
+	{
+		width: 640px;
+	}
+}
+@media (min-width:650px)
+{
+	.login_panel
+	{
+		margin:0 0 0 200px;
+	}
+}
+
+@media (min-width:1000px)
+{
+	.login_panel
+	{
+		margin:0 0 0 400px;
+	}
+}
+@media (min-width:1400px)
+{
+	.login_panel
+	{
+		margin:0 0 0 760px;
+	}
+}
+@media (min-width:1600px)
+{
+	.login_panel
+	{
+		margin:0 0 0 1094px;
+		width: 577px;
+	}
+}
+
+.text_panel
+{
+	padding-top:10px;
+	background-color:white;
+}
+
+@media (min-width:700px)
+{
+	.text_panel
+	{
+	padding-top:180px;
+	}
+}
+
+
+.gps_text{
+	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 22px;
+}
+
+@media (min-width:650px)
+{
+	.gps_text
+	{
+		font-size: 22px;	
+		font-weight:400;
+	}
+}
+
+.gps_text2{
+	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+}
+
+@media (min-width:650px)
+{
+	.gps_text2
+	{
+		margin-top:50px;
+		font-size: 16px;	
+		font-weight:200;
+	}
+}
+
+.input{
+	padding: 0 10px;
+	width: 195px;
+	height: 64px;
+	text-align: center;
+	font-size: 22px;
+	color: #525150;
+	font-weight: 700;
+	border: 1px solid #b8b8b8;
+	border-radius: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media(min-width:650px)
+{
+	.input
+	{
+		display: inline-block;
+		width: 387px;
+	}
+}
+
+
+.register{
+	padding: 0 10px;
+	width: 195px;
+	height: 64px;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	background-color:#F4CA3A;
+	font-weight: 700;
+	border: 0px solid #b8b8b8;
+	border-radius: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor:pointer;
+}
+
+@media(min-width:650px)
+{
+	.register
+	{
+		display: inline-block;
+		width: 387px;
+	}
+}
+
+
+.register_text>a
+{
+	font-family:"Nanum Gothic", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-decoration:underline;
+	cursor:pointer;
+	color:#000000;	
+}	
+
+
+
+
