@@ -5,13 +5,49 @@
  */
 
 body {
-	width:1900px;
-	height:1003px;
+	width:auto;
+	height:auto;
 	background-image: url("../img/login/background.jpg");
+	background-repeat:no-repeat;
 	background-color: black;
 	text-align:center;
 	margin:0;
+	background-size: 1300px; 650px;
 }
+
+
+@media (min-width:800px)
+{
+	body
+	{
+		width:1300px;
+		height:650px;
+		background-size: 1300px; 650px;
+	}	
+}
+
+@media (min-width:1100px)
+{
+	body
+	{
+		background-size: auto;
+		width:1500px;
+		height:950px;		
+	}	
+}
+
+@media (min-width:1600px)
+{
+	body
+	{
+		background-size: auto;
+		width:1900px;
+		height:1003px;
+		
+	}	
+}
+
+
 
 
 .login_panel
@@ -26,29 +62,17 @@ body {
 	border-left: 1px;
 	border-color: #A6A4A4;
 	border-style: solid;
+	width: 360px;
+	padding-bottom:100px;
 	
 }
 
-@media (min-width:100px)
-{
-	.login_panel
-	{
-		width: 320px;
-	}
-}
 
-@media (min-width:400px)
+@media (min-width:800px)
 {
 	.login_panel
 	{
-		width: 640px;
-	}
-}
-@media (min-width:650px)
-{
-	.login_panel
-	{
-		margin:0 0 0 200px;
+		margin:0 0 0 300px;
 	}
 }
 
@@ -56,17 +80,18 @@ body {
 {
 	.login_panel
 	{
-		margin:0 0 0 400px;
+		margin:0 0 0 596px;
+		width:420px;
 	}
 }
-@media (min-width:1400px)
+@media (min-width:1100px)
 {
 	.login_panel
 	{
-		margin:0 0 0 760px;
+		margin:0 0 0 800px;
 	}
 }
-@media (min-width:1600px)
+@media (min-width:1650px)
 {
 	.login_panel
 	{
@@ -85,17 +110,37 @@ body {
 {
 	.text_panel
 	{
-	padding-top:180px;
+		padding-top:45px;
+	}
+}
+
+@media (min-width:1400px)
+{
+	.text_panel
+	{
+		padding-top:180px;
 	}
 }
 
 
+
+
 .gps_text{
 	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 22px;
+	font-size: 15px;
+	margin-top: 20px;
 }
 
-@media (min-width:650px)
+@media (min-width:800px)
+{
+	.gps_text
+	{
+		font-size: 15px;	
+		font-weight:500;
+	}
+}
+
+@media (min-width:1400px)
 {
 	.gps_text
 	{
@@ -106,10 +151,21 @@ body {
 
 .gps_text2{
 	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 18px;
+	font-size: 12px;
+	margin-top:30px;
 }
 
-@media (min-width:650px)
+@media (min-width:800px)
+{
+	.gps_text2
+	{
+		margin-top:50px;
+		font-size: 13px;	
+		font-weight:200;
+	}
+}
+
+@media (min-width:1400px)
 {
 	.gps_text2
 	{
@@ -119,12 +175,13 @@ body {
 	}
 }
 
+
 .input{
 	padding: 0 10px;
-	width: 195px;
-	height: 64px;
+	width: 250px;
+	height: 41px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 15px;
 	color: #525150;
 	font-weight: 700;
 	border: 1px solid #b8b8b8;
@@ -133,24 +190,44 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	display: inline-block;
 }
 
-@media(min-width:650px)
+
+
+
+
+@media (min-width:800px)
 {
 	.input
 	{
-		display: inline-block;
-		width: 387px;
+		width: 290px;
+		height: 50px;
+		font-size: 15px;
+	}
+}
+
+@media (min-width:1400px)
+{
+	.input
+	{
+			width: 387px;
 	}
 }
 
 
+
+
+
+
+
 .register{
 	padding: 0 10px;
-	width: 195px;
-	height: 64px;
+	
+	width: 250px;
+	height: 41px;
+	font-size: 15px;
 	text-align: center;
-	font-size: 22px;
 	color: white;
 	background-color:#F4CA3A;
 	font-weight: 700;
@@ -161,14 +238,35 @@ body {
 	box-sizing: border-box;
 	font-family:'Nanum Gothic', "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 	cursor:pointer;
+	display: inline-block;
 }
 
-@media(min-width:650px)
+@media(min-width:800px)
 {
 	.register
 	{
-		display: inline-block;
+		width: 290px;
+		height:50px;
+		font-size:15px;
+	}
+}
+
+@media(min-width:1400px)
+{
+	.register
+	{
 		width: 387px;
+	}
+}
+
+@media(max-width:400px)
+{
+	.register
+	{
+		
+		width: 250px;
+		height: 41px;
+		font-size: 15px;
 	}
 }
 
@@ -181,6 +279,64 @@ body {
 	color:#000000;	
 }	
 
+@media (max-width:400px)
+{
+	.register_text>a
+	{
+		font-size:14px;
+	}
+	
+}
+
+.btn_img
+{
+width:250px;
+height:41px;
+}	
+
+
+
+@media(min-width:800px) 
+{
+	.btn_img
+	{
+	width:290px;
+	height:50px;
+	}	
+}
+
+@media(min-width:1400px) 
+{
+	.btn_img
+	{
+		width:auto;
+		height:auto;
+	}	
+}
+
+@media(max-width:400px) 
+{
+	.btn_img
+	{
+	width:250px;
+	height:41px;
+	}	
+}
+
+
+
+.btn_margin
+{
+	margin-bottom:10px;
+}
+
+@media(max-width:400px)
+{
+	.btn_margin
+	{
+		margin-bottom:10px;	
+	}
+}
 
 
 
